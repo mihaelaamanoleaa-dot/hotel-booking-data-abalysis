@@ -1,11 +1,11 @@
 Dataset Contents
 This repository contains the following datasets generated during the analysis:
 
-`hotel_bookings.csv`: The original, raw dataset containing reservation details for both a City Hotel and a Resort Hotel.
-`cleaned_bookings.csv`: The processed dataset where missing values were handled and new structured columns (like Month Number) were engineered for easier time-series analysis.
-`ADR Seasonality.csv`: An aggregated view tracking the Average Daily Rate (ADR) across different months, highlighting pricing peaks and low seasons for both hotel types.
-`AVG lead vs canceled.csv`: An analysis grouping the 'lead time' (days between booking and arrival) to demonstrate its correlation with the likelihood of a cancellation.
-`Cancellation Risk.csv`: A pivot summary that evaluates cancellation rates across different market segments and deposit types (e.g., No Deposit vs. Non Refund), identifying which booking channels carry the highest risk of no-shows.
+-hotel_bookings.csv: The original, raw dataset containing reservation details for both a City Hotel and a Resort Hotel.
+-cleaned_bookings.csv: The processed dataset where missing values were handled and new structured columns (like Month Number) were engineered for easier time-series analysis.
+-ADR Seasonality.csv: An aggregated view tracking the Average Daily Rate (ADR) across different months, highlighting pricing peaks and low seasons for both hotel types.
+-AVG lead vs canceled.csv: An analysis grouping the 'lead time' (days between booking and arrival) to demonstrate its correlation with the likelihood of a cancellation.
+-Cancellation Risk: A pivot summary that evaluates cancellation rates across different market segments and deposit types (e.g., No Deposit vs. Non Refund), identifying which booking channels carry the highest risk of no-shows.
 
 1. The Revenue Seasonality Bar Chart
 Discovering When the Hotels Make the Most Money (Seasonality Analysis)
